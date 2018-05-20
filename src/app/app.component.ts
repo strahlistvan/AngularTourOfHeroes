@@ -7,5 +7,5 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My first litta Angular app';
+  title = 'Angular Hero Application';
 }
