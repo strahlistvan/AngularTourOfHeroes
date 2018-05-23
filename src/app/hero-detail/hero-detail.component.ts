@@ -37,4 +37,7 @@ export class HeroDetailComponent implements OnInit {
     console.log(this.hero.id + "Mentése!");
     this.heroService.updateHero(this.hero)
       .subscribe(() => this.goBack());
+  }
+
 }
+
